@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Popup Beispiel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Der Button zum Öffnen des Popups -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#numberModal">
+    Popup öffnen
+</button>
+
+<!-- Das Modal -->
+<div class="modal fade" id="numberModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Zahl eingeben</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="numberForm">
+                    <div class="form-group">
+                        <label for="numberInput">Bitte geben Sie eine Zahl ein:</label>
+                        <input type="number" class="form-control" id="numberInput" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                <button type="button" class="btn btn-primary" id="submitBtn">Absenden</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS und jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    document.getElementById('submitBtn').addEventListener('click', function() {
+        var number = document.getElementById('numberInput').value;
+        alert("Eingegebene Zahl: " + number);
+        $('#numberModal').modal('hide'); // Schließe das Modal
+    });
+</script>
+
+</body>
+</html>

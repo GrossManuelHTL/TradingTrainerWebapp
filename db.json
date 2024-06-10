@@ -1,0 +1,634 @@
+{
+  "users": [
+    {
+      "id": "d8f6",
+      "name": "Manuel",
+      "email": "manuel.gross3004@gmail.com",
+      "password": "asd",
+      "money": 50000,
+      "stocks": []
+    },
+    {
+      "id": "1234",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "money": 47678.50000000001,
+      "stocks": [
+        {
+          "symbol": "AAPL",
+          "currentPrice": 196.89,
+          "time": 1717790401,
+          "amount": "5"
+        },
+        {
+          "symbol": "AMZN",
+          "currentPrice": 184.3,
+          "time": 1717790401,
+          "amount": "4"
+        },
+        {
+          "symbol": "JPM",
+          "currentPrice": 199.95,
+          "time": 1717790402,
+          "amount": "3"
+        }
+      ]
+    },
+    {
+      "id": "a5ba",
+      "name": "Michael Oswald",
+      "email": "oswaldmi2008@gmail.com",
+      "password": "Hekjegyok9",
+      "money": 51247.1778,
+      "stocks": []
+    }
+  ],
+  "stocks": [
+    {
+      "name": "Apple Inc.",
+      "symbol": "AAPL",
+      "id": "d63a"
+    },
+    {
+      "name": "Microsoft Corporation",
+      "symbol": "MSFT",
+      "id": "78aa"
+    },
+    {
+      "name": "Amazon.com Inc.",
+      "symbol": "AMZN",
+      "id": "b055"
+    },
+    {
+      "name": "Alphabet Inc. (Class A)",
+      "symbol": "GOOGL",
+      "id": "a09f"
+    },
+    {
+      "name": "Alphabet Inc. (Class C)",
+      "symbol": "GOOG",
+      "id": "bbf1"
+    },
+    {
+      "name": "Meta Platforms Inc.",
+      "symbol": "META",
+      "id": "53c2"
+    },
+    {
+      "name": "Tesla, Inc.",
+      "symbol": "TSLA",
+      "id": "c644"
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "symbol": "NVDA",
+      "id": "a6e0"
+    },
+    {
+      "name": "Berkshire Hathaway Inc.",
+      "symbol": "BRK.A",
+      "id": "22c8"
+    },
+    {
+      "name": "Visa Inc.",
+      "symbol": "V",
+      "id": "ec96"
+    },
+    {
+      "name": "JPMorgan Chase & Co.",
+      "symbol": "JPM",
+      "id": "904c"
+    },
+    {
+      "name": "Procter & Gamble Co.",
+      "symbol": "PG",
+      "id": "948f"
+    },
+    {
+      "name": "Johnson & Johnson",
+      "symbol": "JNJ",
+      "id": "4445"
+    },
+    {
+      "name": "UnitedHealth Group Incorporated",
+      "symbol": "UNH",
+      "id": "333b"
+    },
+    {
+      "name": "Mastercard Incorporated",
+      "symbol": "MA",
+      "id": "2cd5"
+    },
+    {
+      "name": "The Home Depot, Inc.",
+      "symbol": "HD",
+      "id": "ae92"
+    },
+    {
+      "name": "Exxon Mobil Corporation",
+      "symbol": "XOM",
+      "id": "c15d"
+    },
+    {
+      "name": "Chevron Corporation",
+      "symbol": "CVX",
+      "id": "5e5a"
+    },
+    {
+      "name": "The Walt Disney Company",
+      "symbol": "DIS",
+      "id": "68a3"
+    },
+    {
+      "name": "Pfizer Inc.",
+      "symbol": "PFE",
+      "id": "7df4"
+    },
+    {
+      "name": "Intel Corporation",
+      "symbol": "INTC",
+      "id": "909a"
+    },
+    {
+      "name": "PepsiCo, Inc.",
+      "symbol": "PEP",
+      "id": "db5c"
+    },
+    {
+      "name": "Bank of America Corporation",
+      "symbol": "BAC",
+      "id": "a966"
+    },
+    {
+      "name": "Cisco Systems, Inc.",
+      "symbol": "CSCO",
+      "id": "ee5e"
+    },
+    {
+      "name": "Verizon Communications Inc.",
+      "symbol": "VZ",
+      "id": "8e65"
+    },
+    {
+      "name": "Coca-Cola Company",
+      "symbol": "KO",
+      "id": "e806"
+    },
+    {
+      "name": "AbbVie Inc.",
+      "symbol": "ABBV",
+      "id": "fe42"
+    },
+    {
+      "name": "Merck & Co., Inc.",
+      "symbol": "MRK",
+      "id": "0bfe"
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "symbol": "LLY",
+      "id": "6ec9"
+    },
+    {
+      "name": "Broadcom Inc.",
+      "symbol": "AVGO",
+      "id": "db93"
+    },
+    {
+      "name": "T-Mobile US, Inc.",
+      "symbol": "TMUS",
+      "id": "5bb1"
+    },
+    {
+      "name": "Comcast Corporation",
+      "symbol": "CMCSA",
+      "id": "c9d1"
+    },
+    {
+      "name": "AT&T Inc.",
+      "symbol": "T",
+      "id": "79d8"
+    },
+    {
+      "name": "Home Depot Inc.",
+      "symbol": "HD",
+      "id": "c0e6"
+    },
+    {
+      "name": "Oracle Corporation",
+      "symbol": "ORCL",
+      "id": "1142"
+    },
+    {
+      "name": "Salesforce, Inc.",
+      "symbol": "CRM",
+      "id": "52cb"
+    },
+    {
+      "name": "Adobe Inc.",
+      "symbol": "ADBE",
+      "id": "5b56"
+    },
+    {
+      "name": "Netflix, Inc.",
+      "symbol": "NFLX",
+      "id": "6435"
+    },
+    {
+      "name": "PayPal Holdings, Inc.",
+      "symbol": "PYPL",
+      "id": "f8c6"
+    },
+    {
+      "name": "The Boeing Company",
+      "symbol": "BA",
+      "id": "c70a"
+    },
+    {
+      "name": "IBM Corporation",
+      "symbol": "IBM",
+      "id": "ddf3"
+    },
+    {
+      "name": "Texas Instruments Incorporated",
+      "symbol": "TXN",
+      "id": "a9d5"
+    },
+    {
+      "name": "Advanced Micro Devices, Inc.",
+      "symbol": "AMD",
+      "id": "d21b"
+    },
+    {
+      "name": "Qualcomm Incorporated",
+      "symbol": "QCOM",
+      "id": "492c"
+    },
+    {
+      "name": "NXP Semiconductors N.V.",
+      "symbol": "NXPI",
+      "id": "88df"
+    },
+    {
+      "name": "Micron Technology, Inc.",
+      "symbol": "MU",
+      "id": "a81f"
+    },
+    {
+      "name": "eBay Inc.",
+      "symbol": "EBAY",
+      "id": "68ac"
+    },
+    {
+      "name": "Zoom Video Communications, Inc.",
+      "symbol": "ZM",
+      "id": "9753"
+    },
+    {
+      "name": "Snowflake Inc.",
+      "symbol": "SNOW",
+      "id": "bc20"
+    },
+    {
+      "name": "Shopify Inc.",
+      "symbol": "SHOP",
+      "id": "0d0b"
+    },
+    {
+      "name": "Square, Inc.",
+      "symbol": "SQ",
+      "id": "b848"
+    },
+    {
+      "name": "Spotify Technology S.A.",
+      "symbol": "SPOT",
+      "id": "8235"
+    },
+    {
+      "name": "Twilio Inc.",
+      "symbol": "TWLO",
+      "id": "16cb"
+    },
+    {
+      "name": "Uber Technologies, Inc.",
+      "symbol": "UBER",
+      "id": "4d2c"
+    },
+    {
+      "name": "Lyft, Inc.",
+      "symbol": "LYFT",
+      "id": "c851"
+    },
+    {
+      "name": "Pinterest, Inc.",
+      "symbol": "PINS",
+      "id": "4f20"
+    },
+    {
+      "name": "Snap Inc.",
+      "symbol": "SNAP",
+      "id": "a952"
+    },
+    {
+      "name": "Peloton Interactive, Inc.",
+      "symbol": "PTON",
+      "id": "1c38"
+    },
+    {
+      "name": "Roku, Inc.",
+      "symbol": "ROKU",
+      "id": "a074"
+    },
+    {
+      "name": "DoorDash, Inc.",
+      "symbol": "DASH",
+      "id": "6d70"
+    },
+    {
+      "name": "Airbnb, Inc.",
+      "symbol": "ABNB",
+      "id": "2959"
+    },
+    {
+      "name": "Palantir Technologies Inc.",
+      "symbol": "PLTR",
+      "id": "3ea5"
+    },
+    {
+      "name": "Coinbase Global, Inc.",
+      "symbol": "COIN",
+      "id": "810d"
+    },
+    {
+      "name": "Robinhood Markets, Inc.",
+      "symbol": "HOOD",
+      "id": "40f9"
+    },
+    {
+      "name": "DraftKings Inc.",
+      "symbol": "DKNG",
+      "id": "515f"
+    },
+    {
+      "name": "Zillow Group, Inc.",
+      "symbol": "Z",
+      "id": "612f"
+    },
+    {
+      "name": "Redfin Corporation",
+      "symbol": "RDFN",
+      "id": "e31b"
+    },
+    {
+      "name": "Opendoor Technologies Inc.",
+      "symbol": "OPEN",
+      "id": "664c"
+    },
+    {
+      "name": "Lemonade, Inc.",
+      "symbol": "LMND",
+      "id": "ce22"
+    },
+    {
+      "name": "SoFi Technologies, Inc.",
+      "symbol": "SOFI",
+      "id": "1ed8"
+    },
+    {
+      "name": "Upstart Holdings, Inc.",
+      "symbol": "UPST",
+      "id": "3359"
+    },
+    {
+      "name": "Affirm Holdings, Inc.",
+      "symbol": "AFRM",
+      "id": "bb09"
+    },
+    {
+      "name": "Bill.com Holdings, Inc.",
+      "symbol": "BILL",
+      "id": "8f81"
+    },
+    {
+      "name": "Marvell Technology, Inc.",
+      "symbol": "MRVL",
+      "id": "e702"
+    },
+    {
+      "name": "Skyworks Solutions, Inc.",
+      "symbol": "SWKS",
+      "id": "02ca"
+    },
+    {
+      "name": "Applied Materials, Inc.",
+      "symbol": "AMAT",
+      "id": "4cf9"
+    },
+    {
+      "name": "Lam Research Corporation",
+      "symbol": "LRCX",
+      "id": "6339"
+    },
+    {
+      "name": "KLA Corporation",
+      "symbol": "KLAC",
+      "id": "1f4f"
+    },
+    {
+      "name": "ASML Holding N.V.",
+      "symbol": "ASML",
+      "id": "bed6"
+    },
+    {
+      "name": "Analog Devices, Inc.",
+      "symbol": "ADI",
+      "id": "e192"
+    },
+    {
+      "name": "Maxim Integrated Products, Inc.",
+      "symbol": "MXIM",
+      "id": "870f"
+    },
+    {
+      "name": "Inphi Corporation",
+      "symbol": "IPHI",
+      "id": "7a1b"
+    },
+    {
+      "name": "Cirrus Logic, Inc.",
+      "symbol": "CRUS",
+      "id": "c819"
+    },
+    {
+      "name": "Monolithic Power Systems, Inc.",
+      "symbol": "MPWR",
+      "id": "7671"
+    },
+    {
+      "name": "Align Technology, Inc.",
+      "symbol": "ALGN",
+      "id": "e89b"
+    },
+    {
+      "name": "Illumina, Inc.",
+      "symbol": "ILMN",
+      "id": "b834"
+    },
+    {
+      "name": "Exact Sciences Corporation",
+      "symbol": "EXAS",
+      "id": "6162"
+    },
+    {
+      "name": "Moderna, Inc.",
+      "symbol": "MRNA",
+      "id": "9db2"
+    },
+    {
+      "name": "BioNTech SE",
+      "symbol": "BNTX",
+      "id": "f766"
+    },
+    {
+      "name": "Novavax, Inc.",
+      "symbol": "NVAX",
+      "id": "9284"
+    },
+    {
+      "name": "Gilead Sciences, Inc.",
+      "symbol": "GILD",
+      "id": "5a2e"
+    },
+    {
+      "name": "Amgen Inc.",
+      "symbol": "AMGN",
+      "id": "4b29"
+    },
+    {
+      "name": "Biogen Inc.",
+      "symbol": "BIIB",
+      "id": "9534"
+    },
+    {
+      "name": "Regeneron Pharmaceuticals, Inc.",
+      "symbol": "REGN",
+      "id": "8a57"
+    },
+    {
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "symbol": "VRTX",
+      "id": "4a66"
+    },
+    {
+      "name": "Seagen Inc.",
+      "symbol": "SGEN",
+      "id": "d69f"
+    },
+    {
+      "name": "Incyte Corporation",
+      "symbol": "INCY",
+      "id": "b813"
+    },
+    {
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "symbol": "ALNY",
+      "id": "936d"
+    },
+    {
+      "name": "Sarepta Therapeutics, Inc.",
+      "symbol": "SRPT",
+      "id": "16c2"
+    },
+    {
+      "name": "bluebird bio, Inc.",
+      "symbol": "BLUE",
+      "id": "0cd8"
+    },
+    {
+      "name": "CRISPR Therapeutics AG",
+      "symbol": "CRSP",
+      "id": "e97b"
+    },
+    {
+      "name": "Editas Medicine, Inc.",
+      "symbol": "EDIT",
+      "id": "7867"
+    },
+    {
+      "name": "Intellia Therapeutics, Inc.",
+      "symbol": "NTLA",
+      "id": "56aa"
+    },
+    {
+      "name": "Beam Therapeutics Inc.",
+      "symbol": "BEAM",
+      "id": "39ee"
+    },
+    {
+      "name": "Caribou Biosciences, Inc.",
+      "symbol": "CRBU",
+      "id": "aee1"
+    },
+    {
+      "name": "Cellectis S.A.",
+      "symbol": "CLLS",
+      "id": "95ae"
+    },
+    {
+      "name": "Precision BioSciences, Inc.",
+      "symbol": "DTIL",
+      "id": "0d12"
+    },
+    {
+      "name": "Verve Therapeutics, Inc.",
+      "symbol": "VERV",
+      "id": "1678"
+    },
+    {
+      "name": "Graphite Bio, Inc.",
+      "symbol": "GRPH",
+      "id": "e161"
+    },
+    {
+      "name": "Allogene Therapeutics, Inc.",
+      "symbol": "ALLO",
+      "id": "c25d"
+    },
+    {
+      "name": "Fate Therapeutics, Inc.",
+      "symbol": "FATE",
+      "id": "eb62"
+    },
+    {
+      "name": "Century Therapeutics, Inc.",
+      "symbol": "IPSC",
+      "id": "6cfa"
+    },
+    {
+      "name": "Poseida Therapeutics, Inc.",
+      "symbol": "PSTX",
+      "id": "536b"
+    },
+    {
+      "name": "Protagonist Therapeutics, Inc.",
+      "symbol": "PTGX",
+      "id": "ee3c"
+    },
+    {
+      "name": "Global Blood Therapeutics, Inc.",
+      "symbol": "GBT",
+      "id": "ffd2"
+    },
+    {
+      "name": "Kiniksa Pharmaceuticals, Ltd.",
+      "symbol": "KNSA",
+      "id": "ed0f"
+    },
+    {
+      "name": "Principia Biopharma Inc.",
+      "symbol": "PRNB",
+      "id": "b89d"
+    }
+  ]
+}

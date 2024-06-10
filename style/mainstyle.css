@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+}
+
+
+.head{
+    font-size: xx-large;
+    color: dimgray;
+}
+.head:hover{
+    color: black;
+    font-size: xx-large;
+}
+
+.barr{
+    font-size: x-large;
+    color: dimgray;
+}
+
+.barr:hover{
+    color: black;
+}
+
+.aboutus{
+    margin: 5%;
+    padding: 5%;
+    font-size: x-large;
+    background-color: white;
+}
+.aboutus.p{
+    font-size: larger;
+}
+.imgg{
+    width: 18rem;
+    height: auto;
+    float: right;
+    margin: 2%;
+}
+footer .social-links {
+    margin: 10px 0;
+}
+footer .social-links a {
+    color: dimgray;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.marketStats{
+    float: right;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 3%;
+    left: 96%;
+    transform: translateX(-50%);
+    display: none;
+    width: 4rem;
+    height: 4rem;
+    background-color: dimgray;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.back-to-top:hover {
+    background-color: black;
+}

@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Comparer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../content/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../content/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../content/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../content/assets/css/metisMenu.css">
+    <link rel="stylesheet" href="../content/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../content/assets/css/slicknav.min.css">
+    <!-- amchart css -->
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- others css -->
+    <link rel="stylesheet" href="../content/assets/css/typography.css">
+    <link rel="stylesheet" href="../content/assets/css/default-css.css">
+    <link rel="stylesheet" href="../content/assets/css/styles.css">
+    <link rel="stylesheet" href="../content/assets/css/responsive.css">
+    <link rel="stylesheet" href="../style/mainstyle.css">
+    <!-- modernizr css -->
+    <script src="../content/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- self scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="assets/js/teamCode/charttest/comparechart.mjs" defer type="module"></script>
+
+    <style>
+        .align-center {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .input-button-group {
+            display: flex;
+            align-items: center;
+        }
+        .input-button-group input {
+            width: 60%; /* Festgelegte Breite für das Eingabefeld */
+            margin-right: 5%;
+        }
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</head>
+
+<body class="body-bg">
+<!-- preloader area start -->
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+<!-- preloader area end -->
+<!-- main wrapper start -->
+<div class="horizontal-main-wrapper">
+    <!-- main header area start -->
+    <div class="mainheader-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3" style="width: 50%">
+                    <div class="logo">
+                        <a href="mainpage.html" class="head" style="white-space: nowrap;">Trading-Trainer</a>
+                    </div>
+                </div>
+
+                <!-- profile info & task notification -->
+                <div class="col-md-9 clearfix text-right">
+
+                    <div class="clearfix d-md-inline-block d-block">
+                        <div class="user-profile m-0">
+                            <img class="avatar user-thumb" src="../pics/OIP.jpg" alt="avatar">
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown" id="Account"><i class="fa fa-angle-down"></i></h4>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="mainpage.html">Home</a>
+                                <a class="dropdown-item" href="Market.html">Market</a>
+                                <a class="dropdown-item" href="depot.html">Depot</a>
+                                <a class="dropdown-item" href="aboutus.html">About Us</a>
+                                <a class="dropdown-item" href="loginpage.html">Log Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main header area end -->
+    <!-- page title area end -->
+    <div class="main-content-inner">
+        <div class="container my-4">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12 align-center">
+                        <div class="input-button-group">
+                            <input type="email" class="form-control" id="stockInput" placeholder="Stock">
+                            <button type="submit" id="button" class="btn btn-primary">Compare</button>
+                        </div>
+                        <button class="btn btn-primary" onclick="window.history.back()">Back</button>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 5%">
+                <div id="chart" style="width: 100%; height: 400px;"></div>
+            </div>
+        </div>
+        <!-- main content area end -->
+        <!-- footer area start-->
+        <footer>
+            <div class="footer-area">
+                <p>© Copyright 2024 TradingTrainer - Team04.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://x.com/home" target="_blank">Twitter</a>
+                    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                </div>
+            </div>
+
+        </footer>
+        <!-- footer area end-->
+    </div>
+</div>
+<!-- main wrapper start -->
+<!-- jquery latest version -->
+<script src="../content/assets/js/vendor/jquery-2.2.4.min.js"></script>
+<!-- bootstrap 4 js -->
+<script src="assets/js/templateCode/popper.min.js"></script>
+<script src="assets/js/templateCode/bootstrap.min.js"></script>
+<script src="assets/js/templateCode/owl.carousel.min.js"></script>
+<script src="assets/js/templateCode/metisMenu.min.js"></script>
+<script src="assets/js/templateCode/jquery.slimscroll.min.js"></script>
+<script src="assets/js/templateCode/jquery.slicknav.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- start amcharts -->
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<!-- others plugins -->
+<script src="assets/js/templateCode/plugins.js"></script>
+<script src="assets/js/templateCode/scripts.js"></script>
+<script src="assets/js/teamCode/main.mjs" type="module"></script>
+</body>
+
+</html>
